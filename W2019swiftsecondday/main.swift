@@ -16,4 +16,38 @@ if(true == false)
 }
 */
 
+var s: String = "seconddayarray"
+//s = "second day"
+
+print(s)
+
+
+var str = String()
+
+
+str = "HEllo world!"
+print("-----------------------")
+
+//print(str)
+
+
+var p:String
+p = "call me"
+
+print(p,str,s)
+
+
+print(p.hasPrefix("MADT PROGRAM"))
+
+print(p.hasSuffix("me"))
+
+print("-----------------------")
+
+print("upper case: ",p.uppercased())
+print("lower case: ",str.lowercased())
+
+
+
+print(p.count,"next string :",str.description, str.count)
+
 
