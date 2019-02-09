@@ -172,5 +172,99 @@ print("---- Declaration using ARRAY type ----")
 
 var z=Array<Int>()
 z.append(500)
-print(z)
+//print(z)
 
+print("Z Array: ",z[0])
+
+print("------fix the problem-------")
+
+let xx = [1,2,3,4,5]
+var yy = Array(repeating: 0, count: xx.count)
+
+for i in 0..<xx.count
+{
+    var t = 1
+    for j in 0..<xx.count
+    {
+        
+    }
+}
+
+
+print("-------SET-Example--------")
+print("set data structure")
+var s1 = Set<String>()
+s1.insert("Canada")
+s1.insert("India")
+s1.insert("Brazil")
+s1.insert("Russia")
+s1.insert("China")
+
+print(s1)
+
+s1.insert("Canada")
+print(s1)
+
+s1.insert("canada")
+
+print(s1)
+print();
+print("-------Dictionary-Example--------")
+
+
+var d = [1 :  "ABC",
+         2 : "HELLO",
+         3 : "WORLD"]
+
+print(d)
+
+
+d[4] = "MADT PROGRAM"
+
+print(d)
+
+print(d[2])
+
+print(d[5])
+
+print()
+
+var f = Dictionary<String,String>()
+
+f.updateValue("India" ,forKey: "IND")
+f.updateValue("canada", forKey: "CAN")
+f.updateValue("russia", forKey: "RUSS")
+print(f)
+
+
+for i in f
+{
+    print(i)
+    print(i.key,i.value)
+}
+print("-----------key and value--------------------")
+
+for(k,v) in f
+{
+    print(k,v)
+}
+
+print("----------- value--------------------")
+
+for(_, v) in f
+{
+    print(v)
+}
+
+print("---------------keys--------------------")
+
+for k in f.keys
+{
+    print(k)
+}
+
+print("Countries: ",f.count)
+
+f.removeAll()
+
+print(f.count)
