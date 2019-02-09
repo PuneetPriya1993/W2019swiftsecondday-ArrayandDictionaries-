@@ -50,4 +50,36 @@ print("lower case: ",str.lowercased())
 
 print(p.count,"next string :",str.description, str.count)
 
+print("---------display character by character--------------")
+
+
+for c in p
+{
+    print(c);
+}
+
+print("-----------------------")
+
+
+var x = 5 ... 10 //range
+
+for i in x
+{
+    print(i)
+}
+print("-----------------------")
+
+print(x)
+
+var n = 7...
+
+for i in n
+{
+    print(i)
+    if(i  == 20)
+    {
+        break;
+    }
+}
+
 
