@@ -83,3 +83,18 @@ for i in n
 }
 
 
+var y = ...50
+
+if(y.contains(100))
+{
+    print("true")
+}
+else{
+    print("false")
+}
+// Types of range
+
+//closed range   e.g. 1..10
+//PartialRangeFrom  e.g.
+
+
