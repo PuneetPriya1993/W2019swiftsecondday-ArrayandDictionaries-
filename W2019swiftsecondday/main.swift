@@ -186,10 +186,16 @@ for i in 0..<xx.count
     var t = 1
     for j in 0..<xx.count
     {
-        
+        if(j != i)
+        {
+            t *= xx[j]
+        }
     }
+    
+    yy[i]  = t
 }
-
+print(xx)
+print(yy)
 
 print("-------SET-Example--------")
 print("set data structure")
